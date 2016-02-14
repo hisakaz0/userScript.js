@@ -17,11 +17,12 @@ function attachDisplayToggleBtn() {
   var info_panel = document.getElementById('YPS_allclose').parentElement.nextElementSibling;
   info_panel.style.display = "block";
   var btn = document.createElement("button");
-  btn.innerText      = "Display Toggle";
-  btn.id             = "display-toggle"
-  btn.style.position = "absolute";
-  btn.style.top      = "50px";
-  btn.style.left     = "1024px";
+  btn.innerText        = "Display Toggle";
+  btn.id               = "display-toggle"
+  btn.style.position   = "absolute";
+  btn.style.whiteSpace = 'nowrap'
+  btn.style.top        = "50px";
+  btn.style.left       = "1024px";
 
   var yps_btn_wrapper    = document.getElementById("YPS_allclose").parentElement;
   var body_wrapper       = yps_btn_wrapper.parentElement;
