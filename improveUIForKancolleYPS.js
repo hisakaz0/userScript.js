@@ -11,3 +11,6 @@
 // 'use strict';
 
 // Your code here...
+// dispace no cllapsed btn with any window
+var yps_btns = document.getElementById('YPS_allclose')
+yps_btns.style.whiteSpace = 'nowrap'
